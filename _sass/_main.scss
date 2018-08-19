@@ -1,3 +1,221 @@
 @import
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+
+.bg-light{
+    background-color :#ffc6f6 !important;
+}
+
+.card-header{
+  background-color: #ffc6f6 !important;
+}
+.textcenter {
+  text-align:center;
+  margin:30px;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(163, 0, 141);
+}
+
+a:hover {
+  text-decoration:none;
+  color: #ffc6f6;
+}
+
+a:active{
+  text-decoration: none;
+  color:#ff91e1;
+}
+
+a:link{
+  text-decoration: none;
+  color:rgb(163, 0, 141);
+}
+
+.form-control{
+  border-color:#ff91ed;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.btn-danger {
+  background-color:#ff91ed;
+  border-color: transparent;
+  border-radius: 0%;
+  margin-top: 10px;
+}
+.btn-danger:hover {
+  background-color:  rgb(163, 0, 141);
+  border-color: transparent; 
+}
+.btn-danger:focus, .btn-danger.focus {
+  box-shadow: none; 
+}
+.btn-danger.disabled, .btn-danger:disabled {
+  background-color: #ff91ed;
+  border-color: transparent; 
+}
+.btn-danger:not([disabled]):not(.disabled):active, .btn-danger:not([disabled]):not(.disabled).active, .show > .btn-danger.dropdown-toggle {
+  background-color: rgb(163, 0, 141);
+  border-color: transparent;
+  box-shadow: none; 
+}
+
+ul {list-style-type: none;}
+
+/* Month header */
+.month {
+    width: 100%;
+    background:#ffc6f6;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #ff91e1;
+    color: white !important
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+
+.custom-radio .custom-control-input:checked ~ .custom-control-indicator {
+  background-color: #ff91e1;
+}
+
+.custom-control-indicator {
+  background-color:#ffc6f6(163, 0, 141);
+}
+
+.custom-control-input:focus ~ .custom-control-indicator {
+      box-shadow: none; 
+}
+.custom-control-input:active ~ .custom-control-indicator {
+      background-color:  #ffc6f6(163, 0, 141); 
+}
+.custom-control-input {
+  position: absolute;
+  z-index: -10;
+  opacity: 100; 
+}
+
+.afbeelding{
+  width: 50%;
+}
+
+.titel{
+  padding: 20px;
+}
+
+body{
+  line-height: 160%;
+  background-image: url('../../images/achtergrond.png');
+}
+
+article{
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.kader{
+  background-color:  #ffc6f6;
+  border: 5px solid white;
+  margin: 15px;
+  border-radius: 100px;
+  padding: 40px;
+}
+
+.kader-images{
+  background-color: transparent;
+  border: 5px solid white;
+  margin: 15px;
+  border-radius: 100px;
+}
+
+.text-kader{
+  color:white;
+  padding: 15px;
+}
+
+.verplicht{
+  font-size: 9pt;
+}
+
+.icoon{
+  margin: 5px;
+}
+
+.footer_text{
+  color:white;
+  padding:none;
+}
+
+.mobile-img{
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
